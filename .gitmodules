@@ -1,3 +1,6 @@
 [submodule "Lets_Get_Quizzical_Backend"]
 	path = Lets_Get_Quizzical_Backend
 	url = git@github.com:Littlerou/Lets_Get_Quizzical_Backend.git
+[submodule "front-end-lets-get-quizzical"]
+	path = front-end-lets-get-quizzical
+	url = git@github.com:Nevashka/front-end-lets-get-quizzical.git
