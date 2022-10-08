@@ -33,7 +33,7 @@
 
 add change in submodule
     git add .
-    git git commit .
+    git commit .
     git push origin <branch_name>
 
 cd into main one 
