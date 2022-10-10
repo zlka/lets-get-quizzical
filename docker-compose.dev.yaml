@@ -2,7 +2,7 @@ services:
   api:
     container_name: quizzical_dev_api
     ports: 
-      - 5001:5001
+      - 3000:3000
     environment: 
       - PGUSER=quizzical
       - PGHOST=db
