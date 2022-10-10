@@ -33,7 +33,7 @@
 
 add change in submodule
     git add .
-    git git commit .
+    git commit -m "message"
     git push origin <branch_name>
 
 cd into main one 
