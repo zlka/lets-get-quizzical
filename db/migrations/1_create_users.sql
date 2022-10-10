@@ -1,6 +1,6 @@
-DROP TABLE IF EXISTS users;
+DROP TABLE IF EXISTS players;
 
-CREATE TABLE users (
+CREATE TABLE players (
   id serial PRIMARY KEY,
   username varchar(150) NOT NULL UNIQUE,
   score integer NOT NULL
