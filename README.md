@@ -52,7 +52,7 @@ Running locally:
 - Multiple players able to join a room
 - Redux succefully implemented
 - Display questions after set time
-- Sotre fetched data in Redux store
+- Store fetched data in Redux store
 - Great team work and good communication
 
 ### Challenges
