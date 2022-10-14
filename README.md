@@ -1,47 +1,74 @@
-# lets-get-quizzical
+# Quizz Game Project
 
-### Study Notes
-| [Docker Compose 101](https://github.com/getfutureproof/fp_guides_wiki/wiki/Docker-Compose-101) | [git submodules documentation](https://git-scm.com/book/en/v2/Git-Tools-Submodules) |
+## Project Description
 
-### Demo Repo
-**Setup & Run**
-- Clone repo & `cd` into folder
-- `git submodule update --init`
-- `docker-compose up` or `bash _scripts/start-containers.sh`
+Project consists in creating a Quizz game with a limited number of players where they should be able to choose the level and topic of their quizz. Users score should be scored in a databse at the end of the game and be able to view a high score list.
 
-**To make changes to submodules** *(Please try this on your own version, not these demo repos!)*
-- `cd` into a submodule folder
-- `git checkout <a-branch>` (use `git branch` as reference)
-- make changes, stage, commit as usual
-- cd to your parent folder and push with `git push --recurse-submodules=on-demand`
+## Requirements
 
-**To pull remote updates to submodules**
-- `git pull --recurse-submodules`
+- Client to be using React
+- A small API conneted to a database of scores
+- Make use of an open api such as [Open Trivia DB](https://opentdb.com/api_config.php)
 
-**Teardown**
-- `docker-compose down --remove-orphans --volumes` or `bash _scripts/stop-containers.sh`
+## Installation and Usage
 
-# Exercises
-- Create a parent repo for a pair of services you have worked on eg. a client and a server
-- Add the service repositories as submodules with `git submodule add <repo>`
-- We recommend updating your resulting `.gitmodules` file to change the `url`s to to be relative instead of absolute eg. in this repo we updated `url = git@github.com:getfutureproof/mca-client.git` to `url = ../mca-client.git`
-- Add a docker-compose.yaml configuration file to combine a previous project's client and api services
+- Deployed Client: https://letsgetquizzical7.netlify.app/
+- Deployed Server: https://lets-get-quizzical7.herokuapp.com/
+
+Running locally:
+
+- Clone and download the repo
+- `cd` to folder
+- Run `git submodule update --init` to start submodules
+- Run `npm install` on each folder to install node modules
+- Run `bash _scripts/startDev.sh` to start server
+- `cd` to Front folder
+- Run `npm run dev`
+
+## Technologies
+
+- Node.js
+- React
+- Socket.io
+- Docker
+- Postgres
+- Express
+- Git Projects
+- Axios
+- Express
+- Cors
+- Jest
+- Nodemon
+- Netlify
+- Heroku
+- Redux
+
+## Challenges and Wins
+
+### Wins
+
+- Server and Client deployed in the first day
+- Socket working correctly
+- Enable user to create a room
+- Multiple players able to join a room
+- Redux succefully implemented
+- Display questions after set time
+- Store fetched data in Redux store
+- Tests for Front and Back end
+- Great team work and good communication
+
+### Challenges
+
+- Display one question per time
+- Redirect users simultaneously to the same page
+- Fetch data in the right timing
+- Test front-end components
 
 
+## Contributors
 
-### how to not fuck up 
+**[Camila Pessoa](https://github.com/Nevashka)**
 
-add change in submodule
-    git add .
-    git commit -m "message"
-    git push origin <branch_name>
+**[Isobel Melvin](https://github.com/Littlerou)**
 
-cd into main one 
-
-    git add .
-    git commit ...
-    
-
-    git push --recurse-submodules=on-demand
-
-
+**[Zulaika Ali](https://github.com/zlka)**
