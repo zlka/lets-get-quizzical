@@ -47,7 +47,7 @@ Running locally:
 
 ### Wins
 
-- Server and Client deployed in the first day
+- Server and Client deployed on the first day
 - Socket working correctly
 - Enable user to create a room
 - Multiple players able to join a room
