@@ -47,12 +47,14 @@ Running locally:
 
 ### Wins
 
+- Server and Client deployed in the first day
 - Socket working correctly
 - Enable user to create a room
 - Multiple players able to join a room
 - Redux succefully implemented
 - Display questions after set time
 - Store fetched data in Redux store
+- Tests for Front and Back end
 - Great team work and good communication
 
 ### Challenges
