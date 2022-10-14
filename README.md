@@ -2,7 +2,7 @@
 
 ## Project Description
 
-Project consists in creating a Quizz game with a limited number of players where they should be ab;e to choose the level and topic of their quizz. Users score should be scored in a databse at the end of the game and be able to view a high score list.
+Project consists in creating a Quizz game with a limited number of players where they should be able to choose the level and topic of their quizz. Users score should be scored in a databse at the end of the game and be able to view a high score list.
 
 ## Requirements
 
