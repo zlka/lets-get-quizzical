@@ -65,6 +65,8 @@ Running locally:
 
 ## Contributors
 
-[Camila Pessoa](https://github.com/Nevashka)
-[Isobel Melvin](https://github.com/Littlerou)
-[Zulaika Ali](https://github.com/zlka)
+**[Camila Pessoa](https://github.com/Nevashka)**
+
+**[Isobel Melvin](https://github.com/Littlerou)**
+
+**[Zulaika Ali](https://github.com/zlka)**
